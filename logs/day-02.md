@@ -17,7 +17,7 @@
 
 ### JDK vs JVM
 - **JDK (Java Development Kit)**: Tools to develop Java applications
-- **JVM (Java Virtual Machine)**: Executes Java bytecode :contentReference[oaicite:0]{index=0}  
+- **JVM (Java Virtual Machine)**: Executes Java bytecode 
 
 ### Simple way to think:
 - JDK = build
@@ -34,11 +34,26 @@ A Java program follows a basic structure:
 - Installed and configured Eclipse IDE
 - Created and executed my first Java program
 
+### Code
+
+- Today I wrote my first "Hello, World!" program using both the traditional and simplified syntax.
+
+- Traditional Java Syntax:
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+- Simplified Java 25 Syntax:
+void main() {
+    System.out.println("Hello, World!");
+}
+
 ### Challenges
 - Understanding how Java versions work
 - Differentiating JDK and JVM
 
 ### Notes
-Java is platform-independent because code runs on the JVM, not directly on the system :contentReference[oaicite:1]{index=1}  
+Java is platform-independent because code runs on the JVM, not directly on the system.
 
 ---
